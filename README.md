@@ -1,11 +1,10 @@
-```
-This is an extension of the "gatsby-source-notionso" plugin by Pierre Carion.
-I have updated the render to support many more block types.
-```
+> This is an extension of the "gatsby-source-notionso" plugin by Pierre Carion.
+> I have updated the render to support many more block types.
 
 ## What's New?
 
-Added support for many more blocks in the [notionBlockRenderer component](../blob/master/src/components/notionBlockRenderer.js) and refactored results to render more semantic HTML
+1. Added support for many more blocks in the [notionBlockRenderer component](https://github.com/clearlysid/gatsby-notionso-renderer/blob/master/src/components/notionBlockRenderer.js)
+2. Refactored results to render more semantic HTML
 
 ## Blocks Supported
 
