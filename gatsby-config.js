@@ -1,25 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-source-notionso example site',
+    title: 'gatsby-source-notionso blocks test',
     description:
-      'series of article to explain how to use the gatsby-source-notionso plugin',
+      'building this to see if i can get notion working as a cms for gatsby',
     basePath: '/',
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-156098793-1',
-        head: true,
-        anonymize: true,
-        respectDNT: true,
-      },
-    },
-    {
       resolve: 'gatsby-source-notionso',
       options: {
         name: 'Blog',
-        rootPageUrl: process.env.GATSBY_NOTIONSO_ROOT_PAGE_URL,
+        rootPageUrl: 'https://www.notion.so/test-public-page-da0ca5fe8b5e423582c4734d104e064e',
         debug: false,
       },
     },

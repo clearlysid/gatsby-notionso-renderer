@@ -5,23 +5,9 @@ import { Link } from 'gatsby';
 
 const ArticleBlockLink = ({ link, title, excerpt, icon }) => {
   return (
-    <div className="box">
-      <article className="media">
-        <figure className="media-left">
-          <p className="is-size-3">{icon}</p>
-        </figure>
-        <div className="media-content">
-          <div className="content">
-            <p>
-              <strong>
+              <li>
                 <Link to={link}>{title}</Link>
-              </strong>
-              <p>{excerpt}</p>
-            </p>
-          </div>
-        </div>
-      </article>
-    </div>
+              </li>
   );
 };
 
